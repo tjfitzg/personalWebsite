@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="tylerFitzgerald">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+ 
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-animate.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.min.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.13.3.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="/js/app.js"></script>
+    <script src="/js/meController.js"></script>
+
+
+    <!-- Create some padding for body -->
+    <style>
+      body {
+        min-height: 2000px;
+      }
+    </style>
+
+  </head>
+
+  <body ng-controller="meController">
+    <div class="container" id="pgContainer">
+    <div class="jumbotron" id="banner">
+      <div class="row">
+          <h1> Your banner </h1>
+      </div>
+    </div>
+
+  <div class="jumbotron" id="navJumbo">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" id="topnavbar">
+      <div class="container">
+          <div><!--for navbar gradient image-->
+            <div class="navbar-header">
+              <a class="navbar-brand">&nbsp;&nbsp;TylerFitzgerald.net</a>
+              <!-- small screen nav toggle -->
+                <div class="btn-group pull-right" dropdown keyboard-nav>
+                  <button id="simple-btn-keyboard-nav" type="button" class="btn navbar-toggle" dropdown-toggle>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="simple-btn-keyboard-nav">
+                    <li><a href="#">Nav 1</a></li>
+                    <li><a href="#">Nav 2</a></li>
+                    <li><a href="#">Nav 3</a></li>
+                    <li><a href="#">Nav 4</a></li>
+                  </ul>
+              </div>
+              <!--
+              <div class="btn-group pull-right" dropdown keyboard-nav>
+                <button id="simple-btn-keyboard-nav" type="button" class="navbar-toggle" data-toggle="collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="simple-btn-keyboard-nav">
+                  <li><a href="#">Nav 1</a></li>
+                  <li><a href="#">Nav 2</a></li>
+                  <li><a href="#">Nav 3</a></li>
+                  <li><a href="#">Nav 4</a></li>
+                </ul> 
+              </div>
+              -->
+            </div>
+
+            <!-- nav links -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">          
+              <ul class="nav navbar-nav">
+                <li><a href="#">Nav 1</a></li>
+                <li><a href="#">Nav 2</a></li>
+                <li><a href="#">Nav 3</a></li>
+                <li><a href="#">Nav 4</a></li>
+              </ul> 
+            </div><!-- /.navbar-collapse -->
+        </div>
+      </div><!-- container-fluid -->
+    </nav>
+    </div>
+
+   </div>
+
+   <div class="container" ng-view>
+
+   </div>
+
+  </body>
+
+</html>

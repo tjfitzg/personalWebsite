@@ -1,0 +1,58 @@
+#navJumbo {
+  background: #222222 !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+
+}
+
+#topnavbar {
+    margin: 0;
+    width:100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+#topnavbar.affix {
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+#banner {
+  background: #333333 !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  text-align: center;
+
+}
+
+body{
+  background: #222222 !important;
+}
+
+.navbar-default {
+    background-color:transparent;
+    border: none;
+}
+
+.navbar > .container > div
+{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dfe5d7+22,b3bead+89 */
+  background: rgb(223,229,215); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(223,229,215,1) 22%, rgba(179,190,173,1) 64%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(223,229,215,1) 22%,rgba(179,190,173,1) 64%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(223,229,215,1) 22%,rgba(179,190,173,1) 64%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfe5d7', endColorstr='#b3bead',GradientType=0 ); /* IE6-9 */
+  text-align: center;
+}
+
