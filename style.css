@@ -1,4 +1,4 @@
-#navJumbo {
+#navJumbo{
   background: #222222 !important;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -8,8 +8,12 @@
 
 }
 
+#bodyJumbo{
+  background: white !important
+}
+
+
 #topnavbar {
-    margin: 0;
     width:100%;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -30,10 +34,15 @@
   background: #333333 !important;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 0px;
-  text-align: center;
+  color:white;
 
+}
+
+#h4link {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 body{
@@ -47,12 +56,113 @@ body{
 
 .navbar > .container > div
 {
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dfe5d7+22,b3bead+89 */
-  background: rgb(223,229,215); /* Old browsers */
-  background: -moz-linear-gradient(top,  rgba(223,229,215,1) 22%, rgba(179,190,173,1) 64%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(223,229,215,1) 22%,rgba(179,190,173,1) 64%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(223,229,215,1) 22%,rgba(179,190,173,1) 64%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfe5d7', endColorstr='#b3bead',GradientType=0 ); /* IE6-9 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100;Grey+Black+3D */
+background: rgb(181,189,200); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
+
   text-align: center;
 }
 
+#titleFont{
+  font-family: verdana;
+  font-style: oblique;
+  font-variant: small-caps;
+}
+
+#subTitleFont{
+  padding-left: 30px;
+  font-family: Georgia;
+  font-style: normal;
+  font-size: 15px;
+  color: #AAAAA2;
+}
+
+.unselected{
+  color:black !important;
+  font-weight: bold !important;
+}
+.unselected:hover{
+  color:white !important;
+  font-weight: bold !important;
+}
+
+.selected{
+  color:black !important;
+  font-weight: bold !important;
+  text-decoration: underline;
+}
+
+.selected:hover{
+  color:white !important;
+  font-weight: bold !important;
+  text-decoration: underline;
+}
+
+.unselectedDropdown{
+  color:black !important;
+  font-weight: bold !important;
+}
+.unselectedDopdown:hover{
+  color:gray !important;
+  font-weight: normal; !important;
+}
+
+.selectedDropdown{
+  color:black !important;
+  font-weight: bold !important;
+}
+.selectedDopdown:hover{
+  color:gray !important;
+  font-weight: bold !important;
+}
+
+#siteName{
+  color:#282828;
+  font-variant: small-caps;
+  font-size: 13px;
+  text-indent: 5px;
+}
+
+#linkedinLogo{
+  margin-left: 100px;
+}
+
+#bioText{
+  color:black;
+  font-family: serif;
+}
+
+.icon-bar{
+  background-color:black !important;
+}
+
+hr {
+    border: 1px dotted #d3d3d3;
+    border-style: none none dotted; 
+    color: #fff; 
+    background-color: #fff;
+    margin-top: 0px;
+}
+
+
+.parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.webAppParagraph{
+  font-size: 15px !important;
+  text-indent: 30px;
+}
+
+.webApp{
+  font-size: 15px !important;
+}
